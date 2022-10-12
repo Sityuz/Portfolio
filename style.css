@@ -1,0 +1,39 @@
+body{
+  background-color: Black;
+  border-width: 2px;
+  font-size: 15px;
+ 
+}
+#logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  width: auto;
+  display: inline-flex;
+  padding:10px;
+  text-align: right;
+  
+}
+
+table{
+  padding: 10px;
+  text-align: center;
+  border-color:white;
+  background-color: Black;
+  border-collapse: collapse;
+  table-layout:fixed;
+  width:intial;
+}
+tr{
+  color: white;
+  border-color: white;
+  position: relative;
+  margin:-10;
+  line-height: auto;
+ 
+ 
+}
+td{
+  padding:5px;
+}
