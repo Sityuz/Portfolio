@@ -5,6 +5,9 @@ body{
  text-align: center;
  display: table;
 }
+p{
+width:100%;
+}
 #logo {
   display: flex;
   justify-content: space-between;
