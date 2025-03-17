@@ -7,36 +7,5 @@ body{
 }
 p{
 width:100%;
-}
-#logo {
-  display: flex;
-  justify-content: space-between;
-  
-}
-.jadval{
-  overflow-x: scroll;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-table{
-  padding: 10px;
-  text-align: center;
-  border-color:white;
-  background-color: Black;
-  border-collapse: collapse;
-  table-layout:fixed;
-}
-tr{
-  color: white;
-  border-color: white;
-  position: relative;
-  margin:-10;
-  line-height: auto;
- 
- 
-}
-td{
-  padding:5px;
+  margin-left:50%;
 }
