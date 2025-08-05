@@ -63,7 +63,7 @@ getNewQuestion = () => {
 
         localStorage.setItem('mostRecentScore',score)
 
-        return window.location.assign("/end.html")}
+        return window.location.assign("./end.html")}
     questionCounter++;
 
     progressText.innerText = "Question "+ questionCounter+ "/" + MAX_QUESTION;
@@ -112,3 +112,4 @@ incrementScore = num =>{
     score +=num;
     scoreText.innerText = score;
 }
+
