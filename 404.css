@@ -64,11 +64,12 @@ a:hover{
     }
     h1{
         font-size: 40px;
-        margin-top: -70px;
+        margin-top: -30px;
     }
     span{
         
         font-size: 90px;
         font-family:"error-404";
     }
+
 }
