@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+@font-face {
+    font-family: "error-404"; /* Choose a descriptive name for your font */
+    src: url("error-404.otf") /* Path to WOFF2 file */
+         
+  }
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50% ,-50%);
+    height: 100vh;
+    width: 800px;
+}
+h1{
+    font-size: 70px;
+    margin-top: -70px;
+}
+span{
+    
+    font-size: 120px;
+    font-family:"error-404";
+}
+
+a{
+    text-align: center;
+    border: 1px solid goldenrod;
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+
+a:hover{
+    background-color: goldenrod;
+    border: 1px solid silver;
+    color:aliceblue;
+}
+
+@media (max-width: 900px) {
+    .container{
+        width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        font-size: 40px;
+        margin-top: -70px;
+    }
+    span{
+        
+        font-size: 90px;
+        font-family:"error-404";
+    }
+}
